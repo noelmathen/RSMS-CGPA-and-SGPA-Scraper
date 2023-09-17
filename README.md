@@ -8,7 +8,7 @@ The RSMS CGPA Scraper is a Python script that automates the process of extractin
 
 1. **Data Preparation**: The first step is to prepare a data file in Excel format. This file should include the following columns:
    - `Name`: Student name
-   - `UID`: User ID (e.g., U2109005)
+   - `UID`: User ID (e.g., U21090xx)
    - `Password`: RSMS password associated with the User ID
 
    Save this file as `CSBS_UID_Password_List.xlsx`.

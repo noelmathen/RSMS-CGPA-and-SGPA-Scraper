@@ -43,9 +43,8 @@ def extract_cgpa(person):
         print(f"Error for {person['UID']}: {e}")
         CGPA.append(None)  # Handle the error by setting CGPA to None
 
-print("Check the 'dist' folder for an excel file with name 'CGPA_File' after this terminal is CLOSED")
+# print("Check the 'dist' folder for an excel file with name 'CGPA_File' after this terminal is CLOSED")
 print("Extracting data(CGPA) from RSMS......")
-
 df.apply(extract_cgpa, axis=1)
 del df['Password']
 df['CGPA'] = CGPA
